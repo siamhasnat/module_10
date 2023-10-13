@@ -41,7 +41,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
       context: context,
       builder: (context) {
         return AlertDialog(
-          title: Text('Edit or Delete Item'),
+          title: Text('Alert'),
           actions: <Widget>[
             TextButton(
               onPressed: () {
